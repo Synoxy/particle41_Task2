@@ -1,0 +1,14 @@
+region                = "us-west-2"
+vpc_cidr              = "10.0.0.0/16"
+ecs_cluster_name      = "my-ecs-cluster"
+ecs_task_family       = "my-task-family"
+ecs_task_cpu          = "256"
+ecs_task_memory       = "512"
+container_name        = "my-container"
+container_image       = "nginx:latest"
+container_port        = 80
+ecs_service_name      = "my-ecs-service"
+ecs_service_desired_count = 1
+lb_name               = "my-load-balancer"
+lb_target_group_name  = "my-target-group"
+lb_listener_port      = 80
