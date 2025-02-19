@@ -1,4 +1,4 @@
-# Terraform AWS ECS Infrastructure
+# Task 2 - Terraform and Cloud: create the infrastructure to host your container.
 
 This repository contains Terraform configuration to deploy an ECS cluster on AWS with a load balancer and a sample container.
 
